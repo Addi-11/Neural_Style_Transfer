@@ -20,10 +20,10 @@ You can install the dependencies using `pip install -r requirements.txt`. Here's
 * pandas
 * Scipy
 ### Sample Results :
-<img src = "images/content.PNG" width="300">
-<img src = "images/style.PNG" width ="300">
-<img src = "images/intermediate.PNG" width="300">
-<img src = "images/generated.PNG" width="300">
+Content and Style Images<br>
+<img src = "images/content.PNG" width="300" > <img src = "images/style.PNG" width ="300"> <br>
+Generated Images<br>
+<img src = "images/intermediate.PNG" width="300"> <img src = "images/generated.PNG" width="300">
  
 ### References :
 The implementation has had  from the following projects
