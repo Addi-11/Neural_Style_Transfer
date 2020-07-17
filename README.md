@@ -8,8 +8,9 @@ The implementation process is as follows:
 * Tensorflow graph is intilaised and the generated image
 ### Requirements
 #### Data Files
-Download the pretrained model from the following link : [imagenet-vgg-verydeep-19.mat](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat)
-Save it in a directory pre_trained_model
+Download the pretrained model from the following link : [imagenet-vgg-verydeep-19.mat](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat). Save it in a directory pre_trained_model
+The above method is used in the old-approach file. (which has some bugs at present). 
+
 The data can also be loaded and used directly from keras applications.
 #### Dependencies
 You can install the dependencies using `pip install -r requirements.txt`. Here's the list of required packages
@@ -19,6 +20,11 @@ You can install the dependencies using `pip install -r requirements.txt`. Here's
 * pandas
 * Scipy
 ### Sample Results :
+<img src = "images/content.PNG" width="300">
+<img src = "images/style.PNG" width ="300">
+<img src = "images/intermediate.PNG" width="300">
+<img src = "images/generated.PNG" width="300">
+ 
 ### References :
 The implementation has had  from the following projects
 * A tutorial version of the implementation
